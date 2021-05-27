@@ -14,6 +14,8 @@ Bootstrapped with [NextJS](https://nextjs.org/), [Web3React](https://github.com/
 install dependencies: `yarn`
 run local development server: `yarn dev`
 
+fyi: this initial commit contains some videos and images i stole from places like niftygateway just for the purposes of developing examples
+
 
 # Notes
 
