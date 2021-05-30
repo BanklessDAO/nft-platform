@@ -17,7 +17,7 @@ const styles = css`
 
   * {
     box-sizing: border-box;
-    font-family: 'ClearSans', Helvetica, sans-serif;
+    font-family: DM Sans, Poppins;
     ${fontStyles.P};
   }
 
@@ -49,7 +49,7 @@ const SiteLayout = ({ pageMeta, children }) => {
     <React.Fragment>
       <GlobalStyle />
       <Head {...pageMeta} />
-      <Header currentPage={pageMeta.url} />
+      <Header />
       <main>{children}</main>
       <Footer />
     </React.Fragment>

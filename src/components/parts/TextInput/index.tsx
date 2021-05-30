@@ -1,9 +1,8 @@
 import styled from 'styled-components'
-import { colors } from 'src/theme'
 
 const Input = styled.input`
   padding: 20px 30px;
-  border: 1px solid ${colors.gray};
+  
   border-radius: 10px;
 `
 

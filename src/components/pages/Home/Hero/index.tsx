@@ -50,7 +50,7 @@ const Section = () => {
                   <Card.Heading>Collection 1</Card.Heading>
                 </Card.Header>
                 <Card.Body>
-                  <ReactPlayer url="/videos/test-video-1.mp4" width="100%" height="500px" loop={true} playing={true} />
+                  <ReactPlayer url="" width="100%" height="500px" loop={true} playing={true} />
                   <Card.FieldSet>
                   </Card.FieldSet>
                 </Card.Body>
@@ -74,7 +74,7 @@ const Section = () => {
                   <Card.Heading>Collection 3</Card.Heading>
                 </Card.Header>
                 <Card.Body>
-                  <ReactPlayer url="/videos/test-video-2.mp4" width="100%" height="500px" loop={true} playing={true} />
+                  <ReactPlayer url="" width="100%" height="500px" loop={true} playing={true} />
                   <Card.FieldSet>
                   </Card.FieldSet>
                 </Card.Body>

@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 import { _Wrapper, _Container } from '../style'
-import { colors, fontStyles, breakpoints } from 'src/theme'
+import {fontStyles, breakpoints } from 'src/theme'
 
 export const FooterWrapper = styled(_Wrapper)`
-  background: ${colors.black};
+  
   padding-top: 10px;
   padding-bottom: 10px;
-  color: ${colors.white};
+  
 `
 
 export const FooterContainer = styled(_Container)`
@@ -19,7 +19,7 @@ export const BrandRow = styled.div`
   padding-bottom: 30px;
   strong {
     margin-left: 10px;
-    ${fontStyles.H2m}
+    
   }
   @media (max-width: ${breakpoints.md}) {
     justify-content: center;
@@ -31,7 +31,7 @@ export const CopyRow = styled.div`
   @media (max-width: ${breakpoints.md}) {
     text-align: center;
     margin: 0 auto;
-    ${fontStyles.Tiny}
+    
   }
 `
 export const CopyrightRow = styled.div`
@@ -59,6 +59,6 @@ export const IconsCol = styled.div`
 `
 export const CopyrightCol = styled.div`
   @media (max-width: ${breakpoints.md}) {
-    ${fontStyles.Tiny}
+    
   }
 `
