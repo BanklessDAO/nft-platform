@@ -1,9 +1,5 @@
 import { GetStaticProps } from 'next'
 import { PageMetaProps } from '../components/global/Head'
-
-import HeroSection from 'src/components/pages/Home/Hero'
-import AuctionSection from 'src/components/pages/Home/Auctions'
-import LearnSection from 'src/components/pages/Home/Learn'
 import React from 'react'
 
 const pageMeta: PageMetaProps = {
@@ -22,9 +18,7 @@ export const getStaticProps: GetStaticProps = async () => {
 const Page = (): JSX.Element => {
   return (
     <React.Fragment>
-      <HeroSection />
-      <AuctionSection />
-      <LearnSection />
+      
     </React.Fragment>
   )
 }

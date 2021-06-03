@@ -14,10 +14,15 @@ Bootstrapped with [NextJS](https://nextjs.org/), [Web3React](https://github.com/
 install dependencies: `yarn`
 run local development server: `yarn dev`
 
-fyi: this initial commit contains some videos and images i stole from places like niftygateway just for the purposes of developing examples
-
 
 # Notes
+
+This project was originally cloned from the bankless-dao-website repo and has since been stripped back in preperation of a complete design overhaul.
+
+@yves has provided incredible ['designs'](https://www.figma.com/file/1wkJ4ZmF8lM12m72WS6GSB/LTL_-NFT-marketplace?node-id=1555%3A114851) produced in figma
+
+please view the github projects page for this repo to get a sense of how you might be able to help.
+
 
 Before committing yarn.lock, verify that the entry for `ethereumjs-abi` reads
 
