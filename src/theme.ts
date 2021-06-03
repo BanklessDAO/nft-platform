@@ -1,78 +1,82 @@
 import { css } from 'styled-components'
 
-export const colors = {
-  white: '#FFFFFF',
-  black: '#111111',
-  gray: '#4F4F4F',
-  darkgray: '#313131',
-  lightGray: '#F2F2F2',
-  red: '#D02128',
-  redder: '#FF000A',
-  pink: 'rgba(237, 28, 36, 0.3)',
-  green: '#44CB39',
-  lime: 'rgba(68, 203, 57, 0.3)',
-  discord: '#7289DA',
-  blue: '#393FCB',
-}
 
-export const gradients = {
-  grayred:
-    'linear-gradient(95.78deg, #636362 28.23%, #555555 52.12%, #7E4343 100%);',
-  black:
-    'linear-gradient(0deg, #313131 0%, #1F1F1F 50.3%, #141414 95.85%, #000000 104.74%);',
+
+export const primaryColors = {
+  blue: '#3772FF',
+  purple: '#9757D7',
+  pink: '#EF466F',
+  green: '#45B26B'
+}
+export const secondaryColors = {
+  blue: '#4BC9F0',
+  offWhite: '#E4D7CF',
+  yellow: '#FFD166',
+  purple: '#CDB4DB'
+}
+export const neutralColors = {
+  one: '#141416',
+  two: '#23262F',
+  three: '#353945',
+  four: '#777E90',
+  five: '#B1B5C3',
+  six: '#E6E8EC',
+  seven: '#F4F5F6',
+  eight: '#FCFCFD'
 }
 
 export const fontStyles = {
   H1: css`
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 95px;
-  `,
-  H1m: css`
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 47px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
   `,
   H2: css`
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 59px;
-  `,
-  H2m: css`
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
   `,
   H3: css`
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 26px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
   `,
-  H3m: css`
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
+  H4: css`
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  `,
+  largeP: css`
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
   `,
   P: css`
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 28px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   `,
-  Pm: css`
-    font-weight: normal;
-    font-size: 15px;
+  mediumP
+  : css`
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  `,
+  smallP: css`
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 20px;
-  `,
-  Tiny: css`
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 18px;
-  `,
+  `
 }
 
 export const breakpoints = {
-  sm: '450px',
+  xsm: '320px',
+  sm: '480px',
   md: '768px',
-  lg: '1200px',
-  xl: '1680px',
+  lg: '992px',
+  xl: '1200px',
 }
