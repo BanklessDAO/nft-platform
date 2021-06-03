@@ -19,7 +19,7 @@ run local development server: `yarn dev`
 
 This project was originally cloned from the bankless-dao-website repo and has since been stripped back in preperation of a complete design overhaul.
 
-@yves has provided incredible ['designs'](https://www.figma.com/file/1wkJ4ZmF8lM12m72WS6GSB/LTL_-NFT-marketplace?node-id=1555%3A114851) produced in figma
+@yves has provided incredible [designs](https://www.figma.com/file/1wkJ4ZmF8lM12m72WS6GSB/LTL_-NFT-marketplace?node-id=1555%3A114851) produced in figma
 
 please view the github projects page for this repo to get a sense of how you might be able to help.
 
