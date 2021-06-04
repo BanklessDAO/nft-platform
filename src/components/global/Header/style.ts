@@ -6,9 +6,7 @@ export const HeaderWrapper = styled.header`
   height: 81px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  margin: 0px; 0px;
+  align-items: center;
 `
 export const Divider = styled.span`
   background: ${neutralColors.three}
@@ -19,7 +17,6 @@ export const NavContent = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 160px;
   height: 80px;
 `
 export const Actions = styled.div`
@@ -27,15 +24,14 @@ export const Actions = styled.div`
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-start;
-  width: 573px;
-  padding: 0px;
+  padding: 32px;
 `
 export const ActionButtons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-left: 0px;
+  padding-left: 32px;
   height: 40px;
 `
 
@@ -66,7 +62,6 @@ export const LeftContent = styled.div`
   align-items: center;
   padding: 0px;
   height: 40px;
-  margin: 0px 100px;
 `
 export const LeftContentItem = styled.a`
   font-family: DM Sans;
@@ -77,23 +72,19 @@ export const LeftContentItem = styled.a`
   text-align: center;
   text-decoration: none;
   color: #777E91;
-  margin: 0px 32px;
+  padding: 32px;
 `
 export const LeftContentDivide = styled.span`
   width: 2px;
   height: 40px;
   background: #353945;
   border-radius: 2px;
-  margin: 0px 32px;
 `
 export const LogoBox = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  height: 32px;
-
-  margin: 0px 32px;
+  align-items: center;
+  padding: 32px;
 `
 export const LogoBoxText = styled.p`
 font-family: Poppins;
@@ -107,7 +98,6 @@ color: ${neutralColors.seven};
 export const LogoBoxIcon = styled.img`
   position: relative;
   left: 70px;
-  bottom: 23px;
 `
 
 

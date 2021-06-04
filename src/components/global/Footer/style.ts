@@ -1,3 +1,4 @@
+import { primaryColors } from './../../../theme';
 import styled from 'styled-components'
 import { neutralColors } from '../../../theme';
 
@@ -33,16 +34,28 @@ export const TopBar = styled.div`
     width:100%;
     height: 184px;
 `
-export const TopBarContent = styled.div`
-
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
 `
+export const ColumnHeader = styled.div`
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: ${neutralColors.eight}
+`
+
+
 export const BottomBar = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0px 0px 32px;
-    margin: 48px 0px;
     width:100%;
     height: 85px;
 `
@@ -52,20 +65,29 @@ export const BottomBarContent = styled.div`
     justify-content: space-between;
     align-items: flex-start;
     padding: 0px;
+    width: 100%;
     height: 20px;
 `
-export const BottomBarContentRight = styled.div`
-
-`
-export const BottomBarContentLeft = styled.div`
+export const Copyright = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-start;
     padding: 0px;
-    width: 260px;
+    width: 292px;
     height: 20px;
-    margin: 0px 554px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: ${neutralColors.four};
+`
+export const Disclaimer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -73,6 +95,16 @@ export const BottomBarContentLeft = styled.div`
     line-height: 20px;
     text-align: right;
     color: ${neutralColors.six};
+`
+export const DisclaimerAction = styled.a`
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    text-alight: right;
+    color: ${primaryColors.blue};
+    line-height: 20px;
+    padding-left:6px;
+
 `
 export const Divider = styled.span`
   background: ${neutralColors.three};

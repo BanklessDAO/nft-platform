@@ -24,7 +24,6 @@ const Header = () => {
           </S.ActionButtons>
         </S.Actions>
       </S.NavContent>
-      
     </S.HeaderWrapper>
     
   )
