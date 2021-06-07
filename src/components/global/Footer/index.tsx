@@ -1,6 +1,5 @@
-import NextLink from 'next/link'
-
 import * as S from './style'
+import TextInput from '../../parts/Text-Input';
 
 const Footer = () => {
   return (
@@ -11,6 +10,7 @@ const Footer = () => {
           <S.TopBar>
             <S.Column>
               <S.ColumnHeader>Join Newsletter</S.ColumnHeader>
+              <TextInput label="Label Text" placeHolder="Enter Email Address.." single state="pending" />
             </S.Column>
           </S.TopBar>
           <S.BottomBar>

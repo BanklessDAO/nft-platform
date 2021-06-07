@@ -1,10 +1,8 @@
 import styled from 'styled-components'
 import { neutralColors } from '../../../theme';
-interface ButtonProps {
+export interface ButtonProps {
   disabled?: boolean;
   size?: string;
-  iconLeft?: string;
-  iconRight?: string;
   color?: string;
 }
 
@@ -27,7 +25,7 @@ const Button = styled.button<ButtonProps>`
   line-height: 16px;
   text-align: center;
   margin: 10px;
-  height: 40px;
+  height: 40px;  
 `
 
 export const Neutral = styled(Button)`

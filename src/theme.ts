@@ -1,7 +1,5 @@
 import { css } from 'styled-components'
 
-
-
 export const primaryColors = {
   blue: '#3772FF',
   purple: '#9757D7',
