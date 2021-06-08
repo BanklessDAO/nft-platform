@@ -17,7 +17,6 @@ export const InputWrapper = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
 `
 export const TextInput = styled.input<InputProps>`
     height: 45px;

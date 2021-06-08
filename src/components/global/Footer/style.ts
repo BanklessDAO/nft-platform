@@ -106,9 +106,4 @@ export const DisclaimerAction = styled.a`
     padding-left:6px;
 
 `
-export const Divider = styled.span`
-  background: ${neutralColors.three};
-  height: 1px;
-  width: 100%;
-`
 

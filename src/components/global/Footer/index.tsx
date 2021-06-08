@@ -1,10 +1,11 @@
 import * as S from './style'
 import TextInput from '../../parts/Text-Input';
+import Divider from '../../parts/Divider';
 
 const Footer = () => {
   return (
     <S.Wrapper as="footer" >
-      <S.Divider />
+      <Divider dark />
       <S.Content>
         <S.Box>
           <S.TopBar>
@@ -14,7 +15,7 @@ const Footer = () => {
             </S.Column>
           </S.TopBar>
           <S.BottomBar>
-            <S.Divider />
+            <Divider dark />
             <S.BottomBarContent>
               <S.Copyright>Copyright &copy; {new Date().getFullYear()} Bankless LLC. All rights reserved </S.Copyright>
               <S.Disclaimer>We use cookies for better service. <S.DisclaimerAction href="#"> Accept</S.DisclaimerAction></S.Disclaimer>
