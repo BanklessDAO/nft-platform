@@ -24,30 +24,38 @@ const TextInput = ({
 }) => {
     if (single) {
         return (
-            <S.InputWrapper>
-                
-                <S.TextInput type="text" placeholder={placeHolder} single state={state} />
-                <S.InputIcon label={label} state={state} single>
-                    <Icon state={state} />
-                </S.InputIcon>
-            </S.InputWrapper>
+            <S.FormGroup>
+                <S.InputLabel>{label}</S.InputLabel>
+                <S.InputWrapper>
+                    <S.TextInput type="text" placeholder={placeHolder} single state={state} />
+                    <S.InputIcon label={label} state={state} single>
+                        <Icon state={state} />
+                    </S.InputIcon>
+                </S.InputWrapper>
+            </S.FormGroup>
         );
     }
     else if (state != "" && state != "pending") {
         return (
-            <S.InputWrapper>
-                <S.TextInput type="text" label={label} placeholder={placeHolder} state={state} />
-                <S.InputIcon>
-                    <Icon state={state} />
-                </S.InputIcon>
-            </S.InputWrapper>
+            <S.FormGroup>
+                <S.InputLabel>{label}</S.InputLabel>
+                <S.InputWrapper>
+                    <S.TextInput type="text" label={label} placeholder={placeHolder} state={state} />
+                    <S.InputIcon>
+                        <Icon state={state} />
+                    </S.InputIcon>
+                </S.InputWrapper>
+            </S.FormGroup>
         )
     }
     else {
         return (
-            <S.InputWrapper>
-                <S.TextInput type="text" label={label} placeholder={placeHolder} state={state} />
-            </S.InputWrapper>
+            <S.FormGroup>
+                <S.InputLabel>{label}</S.InputLabel>
+                <S.InputWrapper>
+                    <S.TextInput type="text" label={label} placeholder={placeHolder} state={state} />
+                </S.InputWrapper>
+            </S.FormGroup>
         )
     }
 };

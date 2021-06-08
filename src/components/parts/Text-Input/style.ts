@@ -6,6 +6,12 @@ interface InputProps {
     single?: boolean;
     label?: string;
 }
+export const FormGroup = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+`
 export const InputWrapper = styled.div`
     display: flex;
     flex-direction: row;
@@ -69,7 +75,7 @@ export const InputLabel = styled.label`
     font-size: 12px;
     line-height: 12px;
     text-transform: uppercase;
-
-    color: ${neutralColors.five}
+    color: ${neutralColors.five};
+    padding-bottom: 5px;
 `
 

@@ -15,7 +15,7 @@ const states = {
 
 Playground.args = {
   state: states.NONE,
-  label: "",
+  label: "Label Text",
   single: false,
   placeHolder: "Place Holder Text..."
 };
