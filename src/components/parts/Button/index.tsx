@@ -1,10 +1,8 @@
 import styled from 'styled-components'
 import { neutralColors } from '../../../theme';
-interface ButtonProps {
+export interface ButtonProps {
   disabled?: boolean;
   size?: string;
-  iconLeft?: string;
-  iconRight?: string;
   color?: string;
 }
 
@@ -20,14 +18,14 @@ const Button = styled.button<ButtonProps>`
   }};
   border-style: none;
   border-radius: 90px;
-  
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  
   text-align: center;
+  margin: 10px;
+  height: 40px;  
 `
 
 export const Neutral = styled(Button)`
