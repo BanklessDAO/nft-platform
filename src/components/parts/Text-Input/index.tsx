@@ -2,7 +2,6 @@ import * as S from './style';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLongArrowAltRight, faSpinner, faTimes, faCheck } from '@fortawesome/free-solid-svg-icons';
-import { relative } from 'node:path';
 
 const Icon = ({ state }) => {
     //style={{position: "relative", left: "-1px"}} is a hack to get icon centered in both app and storybook
