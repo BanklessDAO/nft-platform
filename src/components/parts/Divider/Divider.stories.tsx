@@ -1,5 +1,5 @@
 import React from 'react';
-import {Divider} from '.';
+import Divider from '.';
 
 
 const Template = (args) => <Divider {...args} />

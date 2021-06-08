@@ -6,7 +6,7 @@ interface DividerProps {
     size?: number;
 }
 
-export const Divider = styled.div<DividerProps>`
+const Divider = styled.div<DividerProps>`
   background: ${props => {
         if (props.dark) return neutralColors.three
         return neutralColors.six

@@ -1,6 +1,8 @@
 import * as S from './style'
 import TextInput from '../../parts/Text-Input';
 import Divider from '../../parts/Divider';
+import Badge from '../../parts/Badge';
+import { primaryColors } from '../../../theme';
 
 const Footer = () => {
   return (
@@ -12,6 +14,7 @@ const Footer = () => {
             <S.Column>
               <S.ColumnHeader>Join Newsletter</S.ColumnHeader>
               <TextInput label="Label Text" placeHolder="Enter Email Address.." single state="pending" />
+              <Badge/>
             </S.Column>
           </S.TopBar>
           <S.BottomBar>
