@@ -13,8 +13,7 @@
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=5a59fbaf4ac1"
+    "build-storybook": "build-storybook -o ./storybook-static -s public"
   },
   "husky": {
     "hooks": {
